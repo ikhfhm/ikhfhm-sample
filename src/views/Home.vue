@@ -1,20 +1,16 @@
 <template>
-  <div class="h-screen font-ubuntu w-full bg-primary">
-    <HeaderDesktop class="fixed z-20" />
-    <div class="absolute bottom-0 flex justify-center w-full">
-      <img src="../assets/ikhwan-desktop.png" class="h-screen pt-28" />
-    </div>
+  <div>
+    <HomeCompilation />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HeaderDesktop from "@/components/desktop/HeaderDesktop.vue";
+import HomeCompilation from "@/components/compilation/HomeCompilation";
 
 export default {
   name: "Home",
   components: {
-    HeaderDesktop
+    HomeCompilation
   }
 };
 </script>
