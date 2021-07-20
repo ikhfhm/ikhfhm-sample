@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full font-ubuntu text-base text-white py-5 px-5">
+  <div class="w-full bg-primary font-ubuntu text-base text-white py-5 px-5">
     <div class="flex justify-between items-center">
       <router-link to="/">
         <img src="../../assets/logo.png" class="cursor-pointer h-6" />

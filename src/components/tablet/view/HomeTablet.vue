@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen font-ubuntu w-full bg-primary">
-    <HeaderTablet class="fixed z-10" />
+    <HeaderTablet />
     <div v-if="isLoading">
       <LoadingTablet />
     </div>

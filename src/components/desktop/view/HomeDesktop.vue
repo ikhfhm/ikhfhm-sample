@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen font-ubuntu w-full bg-primary">
-    <HeaderDesktop class="fixed z-10" />
+    <HeaderDesktop />
     <div v-if="isLoading">
       <LoadingDesktop />
     </div>
