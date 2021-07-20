@@ -8,8 +8,11 @@
       class="fixed z-10"
       v-on:setMenuSheetMobile="setMenuSheetMobile"
     />
-    <div class="absolute bottom-0 flex justify-center w-full">
+    <div class="fixed bottom-0 flex justify-center w-full">
       <img src="../../../assets/ikhwan-mobile.png" class="h-auto pr-5" />
+    </div>
+    <div class="fixed bottom-0 right-0 text-sm text-white pb-4 pr-5">
+      Created by <span class="font-bold">Ikhwan Fahmi</span>
     </div>
   </div>
 </template>
